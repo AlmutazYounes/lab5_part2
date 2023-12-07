@@ -1,8 +1,7 @@
-package com.example.lab5_part2
+import android.widget.ImageView
 
 data class Product(
     val productName: String,
-    val description: String,
-    val cost: Double,
-    val imageResourceId: Int  // Resource ID for the product image
+    val productDescription: String,
+    val image: Int
 )
